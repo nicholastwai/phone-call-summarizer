@@ -9,9 +9,13 @@ import streamlit as st
 # Set the GPT-3 API key
 openai.api_key = st.secrets["pass"]
 
-audio = st.file_uploader("Upload an audio file", type=["mp3"])
+audio_file = st.file_uploader("Upload an audio file", type=["mp3"])
+
+if audio_file:
+    transcript = openai.Audio.transcribe("whisper-1", audio_file)
 
 transcript = st.text_area("Enter your phone call transcript to summarize")
+
 if st.button("Generate Summary",type='primary'):
     # Use GPT-3 to generate a summary of the article
         response = openai.Completion.create(
