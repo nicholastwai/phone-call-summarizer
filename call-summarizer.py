@@ -5,15 +5,12 @@
 
 # Import the required libraries
 import openai
-# import os
 import streamlit as st
 
 # Set the GPT-3 API key
 openai.api_key = st.secrets["pass"]
 
-# Read the text of the article from a file
-# with open("article.txt", "r") as f:
-#     article_text = f.read()
+audio = st.file_uploader("Upload an audio file", type=["mp3"])
 
 transcript = st.text_area("Enter your phone call transcript to summarize")
 if st.button("Generate Summary",type='primary'):
