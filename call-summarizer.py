@@ -1,7 +1,3 @@
-# This project takes phone call transcripts and produces succinct summaries of them using
-# OpenAI's LLM GPT-3. Keyword extraction via Lexigram is also implemnted to produce tags
-# that will help organize phone calls by topic.
-
 # Import the required libraries
 import openai
 import streamlit as st
@@ -52,6 +48,3 @@ else:
         st.write(transcript)
         st.subheader("After:")
         st.write(res)
-        
-        
-        
