@@ -15,9 +15,9 @@ pip install whisper # for speech-to-text transcription
 ```
 ##### Once you've cloned the project and downloaded the requirements. Create a folder called .streamlit within the phone-call-summarizer folder. Inside .streamlit, create a secrets.toml file. Here set 'pass' equal to your OpenAI API Key which you can generate by making an account with OpenAI here https://openai.com/blog/openai-api.
 
-File Structure:
+####File Structure:
 ![image](https://user-images.githubusercontent.com/57726227/223767910-b8cab715-a9fe-4a87-ae6a-cd53433cae7f.png)
-secrets.toml
+####secrets.toml
 ![image](https://user-images.githubusercontent.com/57726227/223769141-07e9ce26-3d51-4f4f-ad1e-f00f54ef8228.png)
 
 ##### Once this has been completed, you should be able run the app locally with the terminal command:
