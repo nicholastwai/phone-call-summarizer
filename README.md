@@ -22,7 +22,7 @@ pip install whisper # for speech-to-text transcription
 
 ##### Once this has been completed, you should be able run the app locally with the terminal command:
 ```
-steamlit run call-summarizer.py
+streamlit run call-summarizer.py
 ```
 
 
