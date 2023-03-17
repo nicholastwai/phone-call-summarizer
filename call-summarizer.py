@@ -7,7 +7,7 @@ from tempfile import NamedTemporaryFile
 # Set the GPT-3 API key
 openai.api_key = st.secrets["pass"]
 
-st.title("Phone Call Summarizer")
+st.title("Call Brief")
 st.subheader("Transcribes and summarizes the contents of a phone call into a short, succinct summary.")
 
 audio_file = st.file_uploader("Upload an audio file", type=["mp3"])
