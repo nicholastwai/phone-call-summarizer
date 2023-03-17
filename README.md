@@ -4,7 +4,7 @@
 
 ##### The idea behind this project was to create a tool that would be useful for companies that record calls for "quality assurance purposes". Once a call is recorded, often times the resulting transcription can be long and cumbersome, filled with useless filler words that don't offer actionable insights for a customer service team.
 
-##### By leveraging OpenAI's large langauge models, we can automate call summarizing, so at a glance, a business owner can see what their customers are calling for and understand their market better.
+##### By leveraging OpenAI's large language models, we can automate call summarizing, so at a glance, a business owner can see what their customers are calling for and understand their market better.
 
 ##### Local Development Env
 Requirements:
@@ -22,7 +22,7 @@ pip install whisper # for speech-to-text transcription
 
 ##### Once this has been completed, you should be able run the app locally with the terminal command:
 ```
-steamlit run call-summarizer.py
+streamlit run call-summarizer.py
 ```
 
 
